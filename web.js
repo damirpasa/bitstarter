@@ -2,7 +2,7 @@ var fs = require('fs');
 
 var content = fs.readFileSync('index.html');
 
-console.log(content);
+//console.log(content);
 
 buf = new Buffer(content);
 
